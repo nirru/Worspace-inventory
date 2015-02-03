@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="anteeo.com.pl.zoltansport.ReadyOrderDetailsActivity">
+
+    <TextView android:id="@+id/loggedAsTextView"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true" android:layout_alignParentEnd="true"
+        android:paddingRight="@dimen/main_padding" android:paddingEnd="@dimen/main_padding"/>
+
+    <ScrollView
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:padding="@dimen/main_padding" android:layout_above="@+id/bottomBar"
+        android:layout_alignParentTop="true">
+        <LinearLayout
+            android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:textSize="@dimen/small_label" android:text="@string/number_label"/>
+            <EditText
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                style="@style/EditText"/>
+            <TextView
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                android:textSize="@dimen/small_label" android:text="@string/deliver_label"
+                android:layout_marginTop="@dimen/components_top_margin"/>
+            <RadioGroup
+                android:layout_width="match_parent" android:layout_height="wrap_content">
+                <RadioButton
+                    android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:text="@string/dhl_label" style="@style/EditText"/>
+                <RadioButton
+                    android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:text="@string/gls_label" style="@style/EditText"/>
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:id="@+id/bottomBar"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:weightSum="2" android:orientation="horizontal" android:layout_marginTop="@dimen/components_top_margin"
+        android:layout_alignParentBottom="true">
+        <Button android:id="@+id/backButton"
+            android:layout_height="wrap_content" android:layout_width="wrap_content" style="@style/SampleButton"
+            android:layout_weight="1" android:text="@string/back_label" />
+        <Button android:id="@+id/confirmButton"
+            android:layout_height="wrap_content" android:layout_width="wrap_content" style="@style/SampleButton"
+            android:layout_weight="1" android:text="@string/confirm_label" android:background="@drawable/ok_button_selector"/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/sname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toLeftOf="@+id/selection_imageview"
+            android:maxLines="2"
+            android:text="sdhsd"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/scolor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/sname"
+            android:layout_below="@+id/sname"
+            android:text="sdhsd"
+            android:textColor="#FF0000"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/ssize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/scolor"
+            android:layout_marginLeft="5dp"
+            android:layout_toLeftOf="@+id/selection_imageview"
+            android:layout_toRightOf="@+id/scolor"
+            android:singleLine="true"
+            android:text="sdhsd"
+            android:textStyle="italic" />
+
+       
+
+        <CheckBox
+            android:id="@+id/selection_imageview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:button="@drawable/check_selector" />
+    </RelativeLayout>
+
+</LinearLayout>

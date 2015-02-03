@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Universal -->
+
+    <string name="scanner_activity">ZXing Scanner - Full Activity</string>
+    <string name="scanner_fragment_activity">ZXing Scanner - Full Fragment Activity</string>
+    <string name="simple_scanner_activity">ZXing Scanner - Simple Activity</string>
+    <string name="simple_scanner_fragment_activity">ZXing Scanner - Simple Fragment Activity</string>
+    <string name="simple_activity_sample">Simple Activity Sample</string>
+    <string name="simple_fragment_sample">Simple Fragment Sample</string>
+    <string name="activity_sample">Full Activity Sample</string>
+    <string name="fragment_sample">Full Fragment Sample</string>
+    <string name="toggle_flash">Flash</string>
+    <string name="flash_on">Flash [ON]</string>
+    <string name="flash_off">Flash [OFF]</string>
+    <string name="auto_focus_on">Auto Focus [ON]</string>
+    <string name="auto_focus_off">Auto Focus [OFF]</string>
+    <string name="formats">Formats</string>
+    <string name="choose_formats">Choose Formats</string>
+    <string name="ok_button">OK</string>
+    <string name="cancel_button">Cancel</string>
+
+    <integer name="viewfinder_border_width">4</integer>
+    <integer name="viewfinder_border_length">60</integer>
+
+    <string name="app_name">ZoltanSport</string>
+    <string name="title_activity_order_details">Wysyłka</string>
+    <string name="title_activity_orders">Zamówienia</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_login">ZoltanSport</string>
+    <string name="title_activity_inventory">Zamówienie</string>
+    <string name="title_activity_unknown_barcode">Niejednoznaczny kod</string>
+    <string name="action_settings">Settings</string>
+    <string name="ok_label">OK</string>
+    <string name="quit_label">Wyjdź</string>
+    <string name="back_label">Powrót</string>
+    <string name="cancel_label">Anuluj</string>
+    <string name="confirm_label">Zatwierdź</string>
+
+    <!-- Messages and errors -->
+    <string name="warning">Uwaga!</string>
+    <string name="remove_product_ensure">Czy na pewno usunąć produkt z zamówienia?</string>
+    <string name="choose_product_ensure">Czy na pewno przypisać wybrany produkt?</string>
+
+    <!-- LoginActivity -->
+    <string name="login_label">Login</string>
+    <string name="pass_label">Hasło</string>
+
+    <!-- MenuActivity -->
+    <string name="adoption_label">Przyjęcie</string>
+    <string name="release_label">Wydanie</string>
+    <string name="stock_label">Inwentaryzacja</string>
+    <string name="user_label">User</string>
+
+    <!-- OrdersActivity -->
+    <string name="new_label">Nowe</string>
+
+    <!-- OrderDetailsActivity -->
+    <string name="number_label">Nr listu przewozowego</string>
+    <string name="deliver_label">Przewoźnik</string>
+    <string name="dhl_label">DHL</string>
+    <string name="gls_label">GLS</string>
+
+    <!-- InventoryActivity -->
+    <string name="save_label">Zapisz</string>
+
+    <!-- UnknownBarcodeActivity -->
+    <string name="choose_product_label">Wybierz produkt</string>
+
+    <!-- Search Product -->
+    <string name="search">Search Country</string>
+    <string name="search_hint">Search Product</string>
+    <string name="flag_description">Product Description</string>
+    <string name="search_settings">Search Product Names</string>
+    <string name="error_saving_message">Some error occurred during saving your detail to server. Please try again!!!</string>
+    <!-- Error Detail -->
+    <string name="error_title">Error</string>
+    <string name="registration_response_error">Error occured during registration. Try again.</string>
+    <string name="no_user_found">No user is found with this search id.</string>
+ 
+      <!-- Barcode Dialog  -->
+       <string name="product_bound">Product bound with the code\:</string>
+       <string name="another_one">Another One</string>
+</resources>

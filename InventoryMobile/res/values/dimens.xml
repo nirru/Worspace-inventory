@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="components_top_margin">20dp</dimen>
+    <dimen name="small_label">12sp</dimen>
+    <dimen name="edit_text">25sp</dimen>
+    <dimen name="edit_text_padding">2sp</dimen>
+    <dimen name="text_view">18sp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="main_padding">20dp</dimen>
+    <dimen name="button_label">20sp</dimen>
+
+</resources>

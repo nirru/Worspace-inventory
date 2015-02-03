@@ -1,0 +1,18 @@
+<resources>
+
+    <color name="main_background">#47626dff</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="small_label">#ff939393</color>
+    <color name="ok_button">#ff4d52c2</color>
+    <color name="ok_button_pressed">#ff656cff</color>
+    <color name="sample_button">#66000000</color>
+    <color name="sample_button_pressed">#ffc8c8c8</color>
+    <color name="button_label">#aaffffff</color>
+    <color name="edit_text">#ddffffff</color>
+    <color name="actionbar_opacity">#DD000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="viewfinder_laser">#ffcc0000</color>
+    <color name="viewfinder_border">#ffafed44</color>
+    <color name="app_background">#f2f2f2</color>
+
+</resources>

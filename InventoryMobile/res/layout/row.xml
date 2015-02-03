@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:padding="5dp" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/delete" />
+
+        <TextView
+            android:id="@+id/sname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_toLeftOf="@+id/enter_amount"
+            android:layout_toRightOf="@+id/imageView1"
+            android:maxLines="2"
+            android:text="sdhsd"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/scolor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/sname"
+            android:layout_below="@+id/sname"
+            android:text="sdhsd"
+            android:textColor="#FF0000"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/ssize"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/scolor"
+            android:layout_marginLeft="5dp"
+            android:layout_toLeftOf="@+id/enter_amount"
+            android:layout_toRightOf="@+id/scolor"
+            android:singleLine="true"
+            android:text="sdhsd"
+            android:textStyle="italic" />
+
+        <EditText
+            android:id="@+id/enter_amount"
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/round_corner_edittext_more"
+            android:editable="true"
+            android:ems="10"
+            android:focusable="false"
+            android:gravity="center"
+            android:hint="\?"
+            android:imeOptions="actionDone"
+            android:inputType="number"
+            android:singleLine="true"
+            android:textColor="@android:color/black" >
+        </EditText>
+    </RelativeLayout>
+
+</LinearLayout>

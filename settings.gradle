@@ -1,0 +1,3 @@
+include ':SqliteAssetHelper'
+include ':InventoryMobile'
+include ':appcompat_v7'

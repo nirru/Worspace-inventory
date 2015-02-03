@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar"></style>
+
+    <style name="EditText" parent="Base.Widget.AppCompat.EditText">
+        <item name="android:background">@color/edit_text</item>
+        <item name="android:textSize">@dimen/edit_text</item>
+        <item name="android:padding">@dimen/edit_text_padding</item>
+    </style>
+
+    <style name="TextView" parent="Base.Widget.AppCompat.AutoCompleteTextView">
+        <item name="android:textSize">@dimen/text_view</item>
+        <item name="android:padding">@dimen/edit_text_padding</item>
+    </style>
+
+    <style name="FullscreenTheme" parent="android:Theme.NoTitleBar">
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">@style/ButtonBar</item>
+        <item name="metaButtonBarButtonStyle">@style/ButtonBarButton</item>
+    </style>
+
+    <style name="ButtonBar">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+    </style>
+
+    <style name="SampleButton">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/button_label</item>
+        <item name="android:textColor">@color/button_label</item>
+        <item name="android:background">@drawable/sample_button_selector</item>
+        <item name="android:layout_margin">2dp</item>
+    </style>
+
+    <style name="MenuButton">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/button_label</item>
+        <item name="android:textColor">@color/button_label</item>
+        <item name="android:background">@drawable/sample_button_selector</item>
+        <item name="android:layout_marginTop">@dimen/components_top_margin</item>
+    </style>
+
+    <!-- Base application theme. -->
+    <style name="AppOverlayTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <!-- Customize your theme here. -->
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:actionBarStyle">@style/ActionBarStyle.Transparent</item>
+
+        <!-- Support library compatibility -->
+        <item name="windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="ActionBarStyle.Transparent" parent="@android:Widget.ActionBar">
+        <item name="android:background">#99000000</item>
+        <item name="android:titleTextStyle">@style/ActionBarStyle.Transparent.TitleTextStyle</item>
+        <item name="android:backgroundSplit">#99000000</item>
+    </style>
+
+    <style name="ActionBarStyle.Transparent.TitleTextStyle" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="ButtonBarButton" />
+
+</resources>
